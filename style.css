@@ -10,8 +10,8 @@
   --tournament-gold: #d4af37;
   --tournament-gold-dim: rgba(212, 175, 55, 0.35);
 
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-display: "Prompt", sans-serif;
+  --font-body: "Prompt", sans-serif;
 
   --ease-luxury: cubic-bezier(0.16, 1, 0.3, 1);
 
@@ -19,7 +19,9 @@
   --gutter: clamp(1.25rem, 4vw, 3.5rem);
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   background: var(--pitch-black);
@@ -31,13 +33,47 @@ body {
   background: var(--pitch-black);
   color: var(--studio-white);
   font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.001em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
   }
@@ -45,7 +81,8 @@ body {
 
 .visually-hidden {
   position: absolute;
-  width: 1px; height: 1px;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
@@ -108,6 +145,7 @@ body {
 .header-tag {
   margin: 0;
   font-size: 0.7rem;
+  line-height: 1.6;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--charcoal-slate);
@@ -126,7 +164,7 @@ body {
 }
 .hero-eyebrow {
   font-family: var(--font-body);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -135,17 +173,19 @@ body {
 }
 .hero-heading {
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: 600;
   font-size: clamp(2.8rem, 8vw, 6.5rem);
-  line-height: 0.96;
+  line-height: 1.02;
   letter-spacing: -0.02em;
   margin: 0 0 1.75rem;
   max-width: 16ch;
 }
-.gold-dot { color: var(--tournament-gold); }
+.gold-dot {
+  color: var(--tournament-gold);
+}
 .hero-lede {
   font-size: clamp(1rem, 1.4vw, 1.15rem);
-  line-height: 1.65;
+  line-height: 1.75;
   color: var(--charcoal-slate);
   max-width: 46ch;
   margin: 0;
@@ -180,6 +220,7 @@ body {
 }
 .search-label {
   font-size: 0.7rem;
+  line-height: 1.5;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--charcoal-slate);
@@ -194,16 +235,20 @@ body {
   color: var(--studio-white);
   font-family: var(--font-body);
   font-size: 1.05rem;
+  line-height: 1.6;
   padding: 0.5rem 0.1rem;
   transition: border-color 0.3s var(--ease-luxury);
 }
-.search-input::placeholder { color: var(--charcoal-slate); }
+.search-input::placeholder {
+  color: var(--charcoal-slate);
+}
 .search-input:focus {
   border-bottom-color: var(--tournament-gold);
   outline: none;
 }
 .result-count {
   font-size: 0.78rem;
+  line-height: 1.5;
   letter-spacing: 0.06em;
   color: var(--charcoal-slate);
   white-space: nowrap;
@@ -217,6 +262,7 @@ body {
 }
 .filter-lane-label {
   font-size: 0.7rem;
+  line-height: 1.5;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--charcoal-slate);
@@ -233,7 +279,9 @@ body {
   scrollbar-width: thin;
   scrollbar-color: var(--charcoal-slate-dim) transparent;
 }
-.filter-lane::-webkit-scrollbar { height: 4px; }
+.filter-lane::-webkit-scrollbar {
+  height: 4px;
+}
 .filter-lane::-webkit-scrollbar-thumb {
   background: var(--charcoal-slate-dim);
   border-radius: 2px;
@@ -248,11 +296,15 @@ body {
   font-family: var(--font-body);
   font-weight: 500;
   font-size: 0.82rem;
+  line-height: 1.4;
   padding: 0.5rem 1rem;
   border-radius: 999px;
   cursor: pointer;
   white-space: nowrap;
-  transition: color 0.25s var(--ease-luxury), border-color 0.25s var(--ease-luxury), background 0.25s var(--ease-luxury);
+  transition:
+    color 0.25s var(--ease-luxury),
+    border-color 0.25s var(--ease-luxury),
+    background 0.25s var(--ease-luxury);
 }
 .filter-pill:hover {
   color: var(--studio-white);
@@ -287,6 +339,7 @@ body {
   text-align: center;
   color: var(--charcoal-slate);
   font-size: 1rem;
+  line-height: 1.7;
   padding: 4rem 1rem;
 }
 
@@ -307,7 +360,10 @@ body {
 }
 
 @keyframes card-in {
-  to { opacity: 1; transform: translateY(0); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .player-card-link {
@@ -327,9 +383,10 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(100%) contrast(1.08);
   transform: scale(1.01);
-  transition: filter 0.6s var(--ease-luxury), transform 0.6s var(--ease-luxury);
+  transition:
+    filter 0.6s var(--ease-luxury),
+    transform 0.6s var(--ease-luxury);
 }
 .player-card:hover .player-photo,
 .player-card:focus-within .player-photo {
@@ -345,7 +402,7 @@ body {
   font-weight: 800;
   font-size: 1.6rem;
   color: var(--studio-white);
-  text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
   line-height: 1;
 }
 
@@ -366,7 +423,7 @@ body {
   position: absolute;
   inset: auto 0 0 0;
   height: 55%;
-  background: linear-gradient(to top, rgba(9,9,11,0.95), rgba(9,9,11,0));
+  background: linear-gradient(to top, rgba(9, 9, 11, 0.95), rgba(9, 9, 11, 0));
   pointer-events: none;
 }
 
@@ -375,9 +432,9 @@ body {
 }
 .player-name {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.3rem;
-  line-height: 1.12;
+  line-height: 1.2;
   margin: 0 0 0.5rem;
   letter-spacing: -0.01em;
 }
@@ -386,6 +443,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.82rem;
+  line-height: 1.5;
   color: var(--charcoal-slate);
   margin: 0 0 0.2rem;
 }
@@ -395,6 +453,7 @@ body {
 }
 .player-club {
   font-size: 0.78rem;
+  line-height: 1.6;
   color: var(--charcoal-slate);
   margin: 0;
 }
@@ -402,6 +461,7 @@ body {
   display: inline-block;
   margin-top: 0.7rem;
   font-size: 0.7rem;
+  line-height: 1.5;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--tournament-gold);
@@ -421,6 +481,7 @@ body {
 .footer-line {
   margin: 0;
   font-size: 0.78rem;
+  line-height: 1.6;
   color: var(--charcoal-slate);
 }
 .footer-line--muted {
@@ -437,11 +498,17 @@ body {
     align-items: flex-start;
     gap: 0.4rem;
   }
-  .filter-lane-label { width: auto; }
+  .filter-lane-label {
+    width: auto;
+  }
   .roster-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 0.9rem;
   }
-  .player-name { font-size: 1.05rem; }
-  .player-number { font-size: 1.25rem; }
+  .player-name {
+    font-size: 1.05rem;
+  }
+  .player-number {
+    font-size: 1.25rem;
+  }
 }

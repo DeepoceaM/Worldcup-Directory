@@ -1,99 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>THE 1,248 — World Cup 2026 Player Directory</title>
-<meta name="description" content="ทุกชื่อ ทุกเบอร์ ทุกชาติ — สารบบนักฟุตบอลทั้งหมดของฟุตบอลโลก 2026">
- 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
- 
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
- 
-<a class="skip-link" href="#roster">ข้ามไปยังรายชื่อนักเตะ</a>
- 
-<header class="site-header" role="banner">
-  <div class="header-inner">
-    <div class="wordmark" aria-label="THE 1,248">
-      <span class="wordmark-num">1,248</span>
-      <span class="wordmark-text">THE&nbsp;ROSTER</span>
-    </div>
-    <p class="header-tag">FIFA WORLD CUP 26™ · CANADA · MEXICO · USA</p>
-  </div>
-</header>
- 
-<main id="main">
- 
-  <section class="hero" aria-labelledby="hero-heading">
-    <div class="hero-inner">
-      <p class="hero-eyebrow">48 ชาติ · 1 สนามแข่งเดียวกัน</p>
-      <h1 id="hero-heading" class="hero-heading">
-        ทุกคนที่จะถูก<br>จดจำ<span class="gold-dot">.</span>
-      </h1>
-      <p class="hero-lede">
-        บันทึกตัวเลขของนักฟุตบอลทั้งหมด 1,248 คน ที่จะลงสนามในทัวร์นาเมนต์ที่ใหญ่ที่สุดในประวัติศาสตร์ฟุตบอลโลก — ค้นหา กรอง และจดจำชื่อพวกเขาไว้ตั้งแต่วันนี้
-      </p>
-    </div>
-  </section>
- 
-  <section class="controls" aria-label="ตัวกรองนักเตะ">
-    <div class="controls-inner">
- 
-      <div class="search-row">
-        <label class="search-label" for="player-search">ค้นหา</label>
-        <input
-          type="search"
-          id="player-search"
-          class="search-input"
-          placeholder="ค้นหาชื่อนักเตะ, สโมสร หรือประเทศ…"
-          autocomplete="off"
-        >
-        <span class="result-count" id="result-count" aria-live="polite">8 นักเตะ</span>
-      </div>
- 
-      <div class="filter-lane-wrap">
-        <span class="filter-lane-label">ตำแหน่ง</span>
-        <div class="filter-lane" id="position-filter" role="group" aria-label="กรองตามตำแหน่ง">
-          <button class="filter-pill is-active" data-position="ALL" aria-pressed="true">ทั้งหมด</button>
-          <button class="filter-pill" data-position="GK" aria-pressed="false">GK · ผู้รักษาประตู</button>
-          <button class="filter-pill" data-position="DEF" aria-pressed="false">DEF · กองหลัง</button>
-          <button class="filter-pill" data-position="MID" aria-pressed="false">MID · กองกลาง</button>
-          <button class="filter-pill" data-position="FWD" aria-pressed="false">FWD · กองหน้า</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE 1,248 — World Cup 2026 Player Directory</title>
+    <meta
+      name="description"
+      content="ทุกชื่อ ทุกเบอร์ ทุกชาติ — สารบบนักฟุตบอลทั้งหมดของฟุตบอลโลก 2026"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#roster">ข้ามไปยังรายชื่อนักเตะ</a>
+
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <div class="wordmark" aria-label="THE 1,248">
+          <span class="wordmark-num">1,248</span>
+          <span class="wordmark-text">THE&nbsp;ROSTER</span>
         </div>
+        <p class="header-tag">FIFA WORLD CUP 26™ · CANADA · MEXICO · USA</p>
       </div>
- 
-      <div class="filter-lane-wrap">
-        <span class="filter-lane-label">ประเทศ</span>
-        <div class="filter-lane" id="country-filter" role="group" aria-label="กรองตามประเทศ">
-          <button class="filter-pill is-active" data-country="ALL" aria-pressed="true">ทุกชาติ</button>
-          <!-- country pills injected by app.js -->
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner">
+          <p class="hero-eyebrow">48 ชาติ · 1 สนามแข่งเดียวกัน</p>
+          <h1 id="hero-heading" class="hero-heading">
+            ทุกคนที่จะถูก<br />จดจำ<span class="gold-dot">.</span>
+          </h1>
+          <p class="hero-lede">
+            บันทึกตัวเลขของนักฟุตบอลทั้งหมด 1,248 คน
+            ที่จะลงสนามในทัวร์นาเมนต์ที่ใหญ่ที่สุดในประวัติศาสตร์ฟุตบอลโลก —
+            ค้นหา กรอง และจดจำชื่อพวกเขาไว้ตั้งแต่วันนี้
+          </p>
         </div>
+      </section>
+
+      <section class="controls" aria-label="ตัวกรองนักเตะ">
+        <div class="controls-inner">
+          <div class="search-row">
+            <label class="search-label" for="player-search">ค้นหา</label>
+            <input
+              type="search"
+              id="player-search"
+              class="search-input"
+              placeholder="ค้นหาชื่อนักเตะ, สโมสร หรือประเทศ…"
+              autocomplete="off"
+            />
+            <span class="result-count" id="result-count" aria-live="polite"
+              >8 นักเตะ</span
+            >
+          </div>
+
+          <div class="filter-lane-wrap">
+            <span class="filter-lane-label">ตำแหน่ง</span>
+            <div
+              class="filter-lane"
+              id="position-filter"
+              role="group"
+              aria-label="กรองตามตำแหน่ง"
+            >
+              <button
+                class="filter-pill is-active"
+                data-position="ALL"
+                aria-pressed="true"
+              >
+                ทั้งหมด
+              </button>
+              <button
+                class="filter-pill"
+                data-position="GK"
+                aria-pressed="false"
+              >
+                GK · ผู้รักษาประตู
+              </button>
+              <button
+                class="filter-pill"
+                data-position="DEF"
+                aria-pressed="false"
+              >
+                DEF · กองหลัง
+              </button>
+              <button
+                class="filter-pill"
+                data-position="MID"
+                aria-pressed="false"
+              >
+                MID · กองกลาง
+              </button>
+              <button
+                class="filter-pill"
+                data-position="FWD"
+                aria-pressed="false"
+              >
+                FWD · กองหน้า
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-lane-wrap">
+            <span class="filter-lane-label">ประเทศ</span>
+            <div
+              class="filter-lane"
+              id="country-filter"
+              role="group"
+              aria-label="กรองตามประเทศ"
+            >
+              <button
+                class="filter-pill is-active"
+                data-country="ALL"
+                aria-pressed="true"
+              >
+                ทุกชาติ
+              </button>
+              <!-- country pills injected by app.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="roster-section" aria-labelledby="roster-heading">
+        <div class="roster-inner">
+          <h2 id="roster-heading" class="visually-hidden">รายชื่อนักเตะ</h2>
+          <ul class="roster-grid" id="roster" aria-live="polite"></ul>
+          <p class="empty-state" id="empty-state" hidden>
+            ไม่พบนักเตะที่ตรงกับคำค้นหานี้ — ลองคำอื่นหรือล้างตัวกรอง
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-line">
+          THE 1,248 — Unofficial editorial directory. Not affiliated with FIFA.
+        </p>
+        <p class="footer-line footer-line--muted">
+          Designed &amp; built for World Cup 2026.
+        </p>
       </div>
- 
-    </div>
-  </section>
- 
-  <section class="roster-section" aria-labelledby="roster-heading">
-    <div class="roster-inner">
-      <h2 id="roster-heading" class="visually-hidden">รายชื่อนักเตะ</h2>
-      <ul class="roster-grid" id="roster" aria-live="polite"></ul>
-      <p class="empty-state" id="empty-state" hidden>ไม่พบนักเตะที่ตรงกับคำค้นหานี้ — ลองคำอื่นหรือล้างตัวกรอง</p>
-    </div>
-  </section>
- 
-</main>
- 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <p class="footer-line">THE 1,248 — Unofficial editorial directory. Not affiliated with FIFA.</p>
-    <p class="footer-line footer-line--muted">Designed &amp; built for World Cup 2026.</p>
-  </div>
-</footer>
- 
-<script src="app.js"></script>
-</body>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
