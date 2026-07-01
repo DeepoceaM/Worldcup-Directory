@@ -15,18 +15,18 @@ const PLAYERS = [
     club: 'Real Madrid CF',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://cdn.magzter.com/1588254327/1671516545/articles/c9lktbEkZ1671519500531/KYLIAN-MBAPPE-BEATS-LIONEL-MESSI-TO-WIN-GOLDEN-BOOT.jpg'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/45/08/394508_kylian_mbappe_20260217195145.png'
   },
   {
     id: 'p02',
     name: 'Jude Bellingham',
     number: 10,
     country: 'England',
-    countryFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    countryFlag: '🏴󠁧󠁢',
     club: 'Real Madrid CF',
     position: 'MID',
     positionFull: 'Midfielder',
-    photo: 'https://library.sportingnews.com/styles/twitter_card_120x120/s3/2024-07/Jude%20Bellingham%20%281%29.jpg?itok=Y8Pq2J2U'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/75/32/737532_jude_bellingham_20250618231333.png'
   },
   {
     id: 'p03',
@@ -37,7 +37,7 @@ const PLAYERS = [
     club: 'Real Madrid CF',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZrUmz.img?w=1296&h=729&m=4&q=79'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/77/37/547737_vinicius_junior_20250923225603.png'
   },
   {
     id: 'p04',
@@ -48,7 +48,7 @@ const PLAYERS = [
     club: 'Liverpool FC',
     position: 'DEF',
     positionFull: 'Defender',
-    photo: 'https://media.gettyimages.com/id/1245330346/photo/netherlands-v-united-states-fifa-world-cup-2022-round-of-16.jpg?s=1024x1024&w=gi&k=20&c=g3y-_lKKUDpEobJyE04Q_oFB4MVcr3Ww0TbiWYhfyW0='
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/45/93/194593_virgil_van_dijk_20251022235737.png'
   },
   {
     id: 'p05',
@@ -59,7 +59,7 @@ const PLAYERS = [
     club: 'Aston Villa FC',
     position: 'GK',
     positionFull: 'Goalkeeper',
-    photo: 'https://nypost.com/wp-content/uploads/sites/2/2022/12/emiliano-martinez-4-1.jpg?quality=75&strip=all&w=1756'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/72/32/97232_emiliano_martinez_20251206122004.png'
   },
   {
     id: 'p06',
@@ -70,7 +70,7 @@ const PLAYERS = [
     club: 'Liverpool FC',
     position: 'MID',
     positionFull: 'Midfielder',
-    photo: 'https://www.getfootballnewsgermany.com/assets/germany-v-slovakia-fifa-world-cup-2026-qualifier-6-1170x780.jpg'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/25/25/782525_florian_wirtz_20260114143456.png'
   },
   {
     id: 'p07',
@@ -81,7 +81,7 @@ const PLAYERS = [
     club: 'Paris Saint-Germain',
     position: 'DEF',
     positionFull: 'Defender',
-    photo: 'https://en.wikipedia.org/wiki/Special:FilePath/HakimiAchraf.jpg'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/86/25/478625_achraf_hakimi_20260217234110.png'
   },
   {
     id: 'p08',
@@ -92,7 +92,183 @@ const PLAYERS = [
     club: 'FC Barcelona',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://en.wikipedia.org/wiki/Special:FilePath/Lamine_Yamal_in_2025_(cropped).jpg'
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/32/43/1013243_lamine_yamal_20260615183634.jpg'
+  },
+   {
+    id: 'p09',
+    name: 'Neymar Jr',
+    number: 10,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Santos FC',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/48/14/54814_neymar_20250726230614.jpg'
+  },
+  {
+    id: 'p10',
+    name: 'Casemiro',
+    number: 5,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Inter Miami CF',
+    position: 'MID',
+    positionFull: 'Midfielder',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/56/21/95621_casemiro_20250920212010.png'
+  },
+  {
+    id: 'p11',
+    name:'Matheus Cunha',
+    number: 9,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Manchester United',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/96/37/549637_matheus_cunha_20251025173306.png'
+  },
+  {
+    id: 'p12',
+    name:'Alisson Becker',
+    number: 1,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Manchester United',
+    position: 'GK',
+    positionFull: 'Goalkeeper',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/56/14/95614_alisson_becker_20250815201322.png'
+  },
+  {
+    id: 'p13',
+    name:'Marquinhos',
+    number: 4,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Paris Saint-Germain',
+    position: 'DEF',
+    positionFull: 'Defender',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/77/57/187757_marquinhos_20250326082619.png'
+  },
+  {
+    id: 'p14',
+    name:'Rayan',
+    number: 26,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Bournemouth',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/00/82/620082_rayan_20260207204616.png'
+  },
+  {
+    id: 'p15',
+    name:'Endrick',
+    number: 19,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Lyon',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/93/33/829333_endrick_20260313120646.png'
+  },
+  {
+    id: 'p16',
+    name:'Gabriel Martinelli',
+    number: 22,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Arsenal FC',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/96/81/619681_gabriel_martinelli_20251030125918.png'
+  },
+  {
+    id: 'p17',
+    name:'Igor Thiago',
+    number: 25,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Brentford',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/62/16/656216_igor_thiago_20251026001039.png'
+  },
+  {
+    id: 'p18',
+    name:'Raphinha',
+    number: 11,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'FC Barcelona',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://www.playmakerstats.com/img/jogadores/new/10/13/491013_raphinha_20251203082154.png'
+  },
+  {
+    id: 'p19',
+    name:'Luiz Henrique',
+    number: 21,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Zenit St. Petersburg',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/800175-1756746940.png?lm=1'
+  },
+  {
+    id: 'p20',
+    name:'Bruno Guimarães',
+    number: 8,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: '	Newcastle United',
+    position: 'MID',
+    positionFull: 'Midfielder',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/520624-1780929894.jpg?lm=1'
+  },
+  {
+    id: 'p21',
+    name:'Danilo Santos',
+    number: 18,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Botafogo de Futebol e Regatas',
+    position: 'FWD',
+    positionFull: 'Forward',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/808509-1780390517.jpg?lm=1'
+  },
+  {
+    id: 'p22',
+    name:'Fabinho',
+    number: 17,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: '	Al-Ittihad Club',
+    position: 'DEF',
+    positionFull: 'Defender',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/225693-1703282636.png?lm=1'
+  },
+  {
+    id: 'p23',
+    name:'Lucas Paqueta',
+    number: 20,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: 'Flamengo',
+    position: 'MID',
+    positionFull: 'Midfielder',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/444523-1780929763.jpg?lm=1'
+  },
+  {
+    id: 'p24',
+    name:'Bremer',
+    number: 14,
+    country: 'Brazil',
+    countryFlag: '🇧🇷',
+    club: '	Juventus FC',
+    position: 'DEF',
+    positionFull: 'Defender',
+    photo: 'https://img.a.transfermarkt.technology/portrait/header/516716-1725531520.jpg?lm=1'
   }
 ];
 
