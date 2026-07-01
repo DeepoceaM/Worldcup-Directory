@@ -15,18 +15,18 @@ const PLAYERS = [
     club: 'Real Madrid CF',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://cdn.magzter.com/1588254327/1671516545/articles/c9lktbEkZ1671519500531/KYLIAN-MBAPPE-BEATS-LIONEL-MESSI-TO-WIN-GOLDEN-BOOT.jpg'
   },
   {
     id: 'p02',
     name: 'Jude Bellingham',
-    number: 5,
+    number: 10,
     country: 'England',
-    countryFlag: '🏴',
+    countryFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     club: 'Real Madrid CF',
     position: 'MID',
     positionFull: 'Midfielder',
-    photo: 'https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://library.sportingnews.com/styles/twitter_card_120x120/s3/2024-07/Jude%20Bellingham%20%281%29.jpg?itok=Y8Pq2J2U'
   },
   {
     id: 'p03',
@@ -37,7 +37,7 @@ const PLAYERS = [
     club: 'Real Madrid CF',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZrUmz.img?w=1296&h=729&m=4&q=79'
   },
   {
     id: 'p04',
@@ -48,7 +48,7 @@ const PLAYERS = [
     club: 'Liverpool FC',
     position: 'DEF',
     positionFull: 'Defender',
-    photo: 'https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://media.gettyimages.com/id/1245330346/photo/netherlands-v-united-states-fifa-world-cup-2022-round-of-16.jpg?s=1024x1024&w=gi&k=20&c=g3y-_lKKUDpEobJyE04Q_oFB4MVcr3Ww0TbiWYhfyW0='
   },
   {
     id: 'p05',
@@ -59,7 +59,7 @@ const PLAYERS = [
     club: 'Aston Villa FC',
     position: 'GK',
     positionFull: 'Goalkeeper',
-    photo: 'https://images.unsplash.com/photo-1551958219-acbc608c6377?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://nypost.com/wp-content/uploads/sites/2/2022/12/emiliano-martinez-4-1.jpg?quality=75&strip=all&w=1756'
   },
   {
     id: 'p06',
@@ -70,7 +70,7 @@ const PLAYERS = [
     club: 'Liverpool FC',
     position: 'MID',
     positionFull: 'Midfielder',
-    photo: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://www.getfootballnewsgermany.com/assets/germany-v-slovakia-fifa-world-cup-2026-qualifier-6-1170x780.jpg'
   },
   {
     id: 'p07',
@@ -81,7 +81,7 @@ const PLAYERS = [
     club: 'Paris Saint-Germain',
     position: 'DEF',
     positionFull: 'Defender',
-    photo: 'https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://en.wikipedia.org/wiki/Special:FilePath/HakimiAchraf.jpg'
   },
   {
     id: 'p08',
@@ -92,7 +92,7 @@ const PLAYERS = [
     club: 'FC Barcelona',
     position: 'FWD',
     positionFull: 'Forward',
-    photo: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=600&q=80&fm=jpg&fit=crop'
+    photo: 'https://en.wikipedia.org/wiki/Special:FilePath/Lamine_Yamal_in_2025_(cropped).jpg'
   }
 ];
 
